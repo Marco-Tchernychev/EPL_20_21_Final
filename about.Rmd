@@ -8,3 +8,22 @@ description: |
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
+## About Me 
+
+My name is **Marco Tchernychev**, I am a junior at Brookline High School. As you might have been able to tell, I'm a huge soccer fan!
+
+## About the Project
+
+My project *Visualizations for the 20/21 Premier League Season* explores how age relates to goals, and how nationality relates to passing.
+
+### Goals
+
+* Find a soccer players prime goal scoring years.
+  
+  + Interestingly enough, 23 year olds scored the joint most goals in the premier league, signaling a possible shift towards younger ages when considering prime goal scoring years.
+
+* Determine whether certain countries pass more than others.
+
+  + A challenge I had with the Country vs Passing graph was wrangling the data in such a way to make accurate conclusions. In the end, I ended up distilling the data down to countries with 4 or more outfield players who played at least half of the premier league season. I then took the average passes per 90 minutes for each countries' respective players and graphed that.
+  
+  
