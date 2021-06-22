@@ -10,6 +10,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 library(tidyverse)
 library(plotly)
+library(DT)
 
 EPL_20_21 <- read.csv("EPL_20_21.csv", header = TRUE)
 
@@ -84,3 +85,4 @@ ggplotly(FinalPassData, tooltip = "text")
 ```
 
 Spain upholds it's reputation as a country who prefers to pass the ball, while Portugal follows closely behind them (perhaps because of Benfica's influence). A surprise appearance in this graph is that of Northern Ireland's. However, when you consider the likes of Stuart Dallas, Jonny Evans, and more, you can see why their country shows up here.
+
