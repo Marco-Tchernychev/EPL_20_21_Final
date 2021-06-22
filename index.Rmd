@@ -1,7 +1,7 @@
 ---
 title: "Visualizations for the 20/21 Premier League Season"
 description: |
-  Here we look at the correlation between age and goals, as well as nationality and passing!
+  This website examines the correlation between age and goals, as well as nationality and passing!
 site: distill::distill_website
 ---
 
@@ -38,7 +38,9 @@ age_v_goals <- EPL_20_21 %>% select(Age, Goals) %>%
 ```{r age vs goals ggplotly}
 ggplotly(age_v_goals, tooltip = "text")
 ```
+The prime goal scoring ages were 23 and 28 during the 20/21 Premier League season.
 
+-------------------------------------------------------------------
 
 ```{r nationality vs passes wrangling}
 CleanPassData <- EPL_20_21 %>% select(Name, Nationality, Position, Mins, Passes_Attempted) %>%
@@ -80,3 +82,5 @@ FinalPassData <- CleanPassData %>% ggplot(aes(x = reorder(Nationality, AvgPasses
 ```{r nationality vs passes ggplotly}
 ggplotly(FinalPassData, tooltip = "text")
 ```
+
+Spain upholds it's reputation as a country who prefers to pass the ball, while Portugal is close behind (perhaps because of Benfica's influence). A surprise appearance in this graph is that of Northern Ireland's. However, when you consider the likes of Stuart Dallas, Jonny Evans, and more, you can see why their country shows up here.
