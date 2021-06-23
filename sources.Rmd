@@ -2,17 +2,20 @@
 title: "Sources"
 description: |
   An overview of the source used for my project.
+author: 
+  - name: Rajat Chaudhari
+date: "June 3, 2021"
+output: distill::distill_article
+bibliography: bibliography.bib
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
+  
+For this website I used a data table from kaggle.com made by Rajat Chaudhari.
 
-Distill is a publication format for scientific and technical writing, native to the web. 
-
-Learn more about using Distill for R Markdown at <https://rstudio.github.io/distill>.
-
-
+[@rajat2021kaggle]
 
 
 
