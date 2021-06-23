@@ -18,7 +18,7 @@ My project *Visualizations for the 20/21 Premier League Season* explores how age
 
 ### Goals
 
-* Find a soccer players prime goal scoring years.
+* Find a soccer player's prime goal scoring years.
   
   + Interestingly enough, 23 year olds scored the joint most goals in the premier league, signaling a possible shift towards younger ages when considering prime goal scoring years.
 
